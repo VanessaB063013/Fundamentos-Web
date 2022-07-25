@@ -1,4 +1,12 @@
 /*ESTILOS DA PÁGINA INDEX.HTML*/
+*{ 
+    padding:0;
+    margin:0;
+    
+    background-color: rgb(241, 210, 241);
+    
+
+}
 
 .center{
     text-align: center;
@@ -13,6 +21,8 @@
     flex-flow: row ;
     justify-content: center;
     align-items: center;
+    
+    
 }
 
 #menu li{
@@ -60,4 +70,82 @@
     margin-left: 50px;
 }
 
+p{
+    
+    font-size: 20px;
+}
 
+
+
+.sans{
+    font-family: sans-serif;
+}
+
+
+
+
+/*
+para definir variáveis
+pseudoclasse marca-se com :
+palavras chaves que sao add a seletores e modifica o estado daquele elemento
+root faz conexao diretamente com html
+:root{  ***para marcar variavel é --
+     --white-glass:#fffff50;(o numero no final nos diz a transparencia)
+
+
+}
+
+para criar efeito vidro
+
+*{ 
+    padding:0;
+    margin:0;
+    box-sizeing:border-box;
+
+}
+
+esta na primeira div
+.classname{
+    width: 100 vw;
+    heigth: 100vh;
+
+    display:flax;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../coloca o caminho da imagem na pasta)
+    background-size: cover;
+
+}
+
+na segunda div tem duas class
+.card{
+    width: 750px;
+    heigth: 250px;
+    
+
+    display:flax;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass{
+    border: 10px solid var(--white-glass); 
+    backdrop-filter: blur(8px) ;
+}
+
+.card p{
+    font-size: 20px;
+    font-style: italic;
+    color: var(--white-glass);
+    transition: font-size .5s; 
+}
+
+.card p:hover{
+    font-size: 40px;
+    font-weigth:bold;
+}
+}
+
+
+*/
